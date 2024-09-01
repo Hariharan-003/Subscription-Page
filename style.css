@@ -1,0 +1,58 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: "Gabarito", sans-serif;
+}
+
+.subscription-page {
+    padding: 10px;
+}
+
+.subscription-title {
+    background-color: #F885C2;
+    padding: 10px;
+    text-align: center;
+    width: 60%;
+}
+
+.subscription-navbar {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.subscription-container__s1 {
+    background-color: black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 200px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.subscription-container__s2 {
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.subscription-container {
+    display: flex;
+    justify-content: center;
+}
+
+.subscription-container__s1-subtitle {
+    margin-top: 5px;
+}
